@@ -14,3 +14,8 @@
 p {
   @apply text-sm;
 }
+
+.card {
+  @apply flex flex-col gap-10 bg-white p-4 rounded-xl shadow-md shadow-black/20
+       md:flex-row md:bg-transparent md:shadow-none;
+}
